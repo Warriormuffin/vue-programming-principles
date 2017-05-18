@@ -6,14 +6,16 @@
           <router-link :to="'/solid/'+letter">{{letter}}</router-link>
         </li>
       </ul>
+      <h1>C.R.U.D</h1>
       <ul>
         <li v-for="letter2 in crud">
           <router-link :to="'/crud/'+ letter2">{{letter2}}</router-link>
         </li>
       </ul>
+      <h1>H.T.T.P</h1>
        <ul>
-        <li v-for="letter3 in http">
-          <router-link :to="'/http/'+ letter3">{{letter3}}</router-link>
+        <li v-for="word in http">
+          <router-link :to="'/http/'+ word">{{word}}</router-link>
         </li>
       </ul>
   </div>

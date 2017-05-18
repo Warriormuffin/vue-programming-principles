@@ -25,17 +25,14 @@ var http = {
 
 export default {
     getPrinciple(letter){
-      debugger
       return state[letter.toLowerCase()]
   },
 
     getCrud(letter){
-      debugger
       return crud[letter.toLowerCase()]
   },
 
     getHttp(letter){
-      debugger
       return http[letter.toLowerCase()]
     }
 
